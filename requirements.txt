@@ -1,4 +1,2 @@
-Flask
-SQLAlchemy
-Jinja2
-fetch
+Flask==3.1.2
+peewee==3.19.0

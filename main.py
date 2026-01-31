@@ -1,9 +1,9 @@
 from flask import Flask
-from routes.home import home_route
-from routes.cliente import cliente_route
+from configs import config_all
 
 app = Flask(__name__)
 
-app.register_blueprint(home_route)
-app.register_blueprint(cliente_route , url_prefix="/clientes")
+config_all(app)
+
 app.run(debug=True)
+

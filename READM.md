@@ -29,9 +29,7 @@ Este projeto faz parte da minha jornada de aprendizado na área de tecnologia e 
 ### Backend
 - Python
 - Flask
-- SQLAlchemy
-- PostgreSQL
-
+- SQLite
 
 ### Frontend
 - HTML
